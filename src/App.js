@@ -36,8 +36,8 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-        <body style="margin:0px;padding:0px;overflow:hidden">
-            <iframe src="https://vscode.dev" frameborder="0" style="overflow:hidden;height:100%;width:100%" height="100%" width="100%"></iframe>
+        <body style={{margin: '0px', padding: '0px', overflow: 'hidden'}}>
+            <iframe src="https://vscode.dev" frameborder="0" style={{overflow: 'hidden', height: '100%', width: '100%'}} height="100%" width="100%"></iframe>
         </body>
           {/* <img src={logo} className="App-logo" alt="logo" />
           <p>
